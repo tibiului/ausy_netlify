@@ -1,0 +1,15 @@
+footer {
+    background-color: #0F1940;
+    color: rgba(247, 245, 240, .5);
+}
+
+ .secondary-navigation-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+.secondary-navigation-columns ul {
+    list-style-type: none;
+}
+
+

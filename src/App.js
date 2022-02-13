@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {Footer} from './Footer/Footer'
+import {Main} from './Main/Main'
+import {Header} from './Header/Header'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       Ausy Netlify Git
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+
+
+
+
+export const App = () => <div>
+  <Header />
+  <Main />
+  <Footer />
+</div>
